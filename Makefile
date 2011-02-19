@@ -1,3 +1,5 @@
+DIR	= $(HOME)/lib/emacs/3rdparty/auto-complete
+
 VERSION=`perl -ne 'print $$1 if /;; Version: (.*)/' auto-complete.el`
 PACKAGE=auto-complete-${VERSION}
 
